@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/bfeb2b2a30.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter|Hind+Siliguri">
+        <title>Save Javan Rhino</title>
+    </head>
+    <body>
+        <header>
+            <nav id="navbar">
+                <div id="logo">
+                    <img src="assets/logo.png">
+                </div>
+                <div class="navbar-content">
+                    <div class="dropdown">
+                        <button class="dropbtn" id="dropbtn">Rhino Info
+                            <i class="fa fa-angle-double-down" aria-hidden="true"></i>
+                        </button>
+                        <div class="dropdown-content" id="dropdown-menu">
+                            <a href="#description">Description</a>
+                            <a href="#current-condition">Current Condition</a>
+                        </div>
+                    </div>
+                    <a href="#newsletter">Newsletter</a>
+                    <a href="#about-us">About us</a>
+                </div>
+            </nav>
+            <div class="welcoming-screen">
+                <div class="slideshow-container">
+                            <div class="myslide fade">
+                                <img src="assets/1.jpg"/>
+                            </div>
+                            <div class="myslide fade">
+                                <img src="assets/2.jpg"/>
+                            </div>
+                            <div class="myslide fade">
+                                <img src="assets/3.jpg"/>
+                            </div>
+                            <div class="myslide fade">
+                                <img src="assets/4.jpg"/>
+                            </div>
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                    <br>
+                    <!-- The dots/circles -->
+                <div style="text-align:center">
+                        <span class="dot active" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                        <span class="dot" onclick="currentSlide(4)"></span>
+                </div>
+            </div>
+        </header>
+        <main>
+            <h1>Let's Save Javan Rhinos!</h1>
+            <article id="description" class="main-content">
+                <h2>Meet our javan rhino!</h2>
+                <p class="content">Javan rhinos (<i>Rhinoceros sondaicus</i>) are the most threatened of the five rhino species that live only in Ujung Kulon National Park in Java, Indonesia. Javan rhinos once lived throughout northeast India and Southeast Asia. Vietnam’s last Javan rhino was poached in 2010.
+                    This species is a dusky grey color and has a single horn of up to about 10 inches. Its skin has a number of loose folds, giving the appearance of armor plating. The Javan rhino is very similar in appearance to the closely-related greater one-horned rhinoceros, but has a much smaller head and less apparent skin folds.</p>
+                <img src="assets/5.jpg">
+                </article>
+            <article id="current-condition" class="main-content">
+                <h2>How are our javan rhinos?</h2>
+                <div class="icon-text">
+                    <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+                    <p class="content">There are only around 60 rhinos that live in Ujung Kulon</p>
+                </div>
+                <div class="icon-text">
+                    <i class="fa-solid fa-person-rifle"></i>
+                    <p class="content">A lot of javan rhinos dead because human hunt them for their horns</p>
+                </div>
+                <div class="icon-text">
+                    <i class="fa-solid fa-dna"></i>
+                    <p class="content">Gene diversity in javan rhino population is decreasing that make them prone to extinction.</p>
+                </div>
+            </article>
+            <article id="newsletter" class="main-content">
+                <h2>Subscribe us now!</h2>
+                <p class="content">Keep update on javan rhino current condition</p>
+                <div class="email-input">
+                    <label for="email">E-mail: </label>
+                    <input type="email" id="email">
+                    <button class="submit">Submit</button>
+                </div>
+            </article>
+            <article id="about-us" class="main-content">
+                <h2>About us</h2>
+                <p class="content">Save Javan Rhinos is website for sharing information about javan rhinos. We provide scientific facts about current condition of javan rhinos
+                </p>
+                <aside>
+                    <p class="contributor">Our main contributor</p>
+                    <img src="assets/nadia.jpeg">
+                    <p class="name">Nadia Puji Utami</p>
+                </aside>
+            </article>
+        </main>
+        <footer>
+            <ul>
+                <li><a href="" target="_blank">Terms and Condition</a></li>
+                <li><a href="" target="_blank">Privacy Policy</a></li>
+                <li><a href="" target="_blank">Cookie Policy</a></li>
+            </ul>
+            <p>Copyright &copy; 2022 All rights reserved.</p>
+        </footer>
+        <script src="act.js"></script>
+    </body>
+</html>
